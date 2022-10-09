@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.search {
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 60px 0;
+}
+
+.card {
+  background-color: #fff;
+  width: 90%;
+  padding: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.result {
+  border: none;
+}
+
+.item-result {
+  width: 10%;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.item-email {
+  width: 20%;
+  background-color: #eee;
+}
+
+.item-opinion {
+  width: 40%;
+  background-color: #eee;
+}
+
+.body-result {
+  text-align: center;
+  padding: 10px;
+}
+
+.body-opinion {
+  text-align: left;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
